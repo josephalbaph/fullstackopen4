@@ -1,0 +1,9 @@
+POST http://josephalbaph.tk:3003/api/blogs 
+content-type: application/json
+
+{
+    "title": "my blog 3",
+    "author": "my author 3",
+    "url": "www.nytimes.com",
+    "likes": 0
+}
