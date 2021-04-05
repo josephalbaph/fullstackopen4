@@ -4,7 +4,7 @@ const testBlogs = require('./test_blogs.js')
 describe('most Blogs', () => {
   const blogs = testBlogs.blogs
 
-  test('of mostBlogs author with most blogs', () => {
+  test('4.6 - of mostBlogs author with most blogs', () => {
     const result = listHelper.mostBlogs(blogs)
     expect(result).toEqual({
       author: 'Robert C. Martin',
